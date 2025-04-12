@@ -3,7 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 config = configparser.RawConfigParser()
-config.read(r"C:\Users\thebo\PycharmProjects\recommendation_service\properties.txt")
+config.read(r"properties.txt")
 details = dict(config.items('PROPERTIES'))
 
 

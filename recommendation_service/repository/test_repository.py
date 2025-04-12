@@ -5,7 +5,7 @@ from model.establishment import Establishment
 
 class TestDataProvider(DataProvider):
     def __init__(self):
-        super().__init__('url', 'login', 'password')
+        super().__init__('', '', '', 1, '')
         self.establishments = []
         for i in range(100):
             self.establishments.append(
